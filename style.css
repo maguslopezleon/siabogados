@@ -390,7 +390,7 @@ h4 {
 
 
 #hero-quienes-somos {
-	background-image: url('fotos/quienes-somos.jpg');
+	background-image: url('fotos/martillo-md-os.jpg');
 	background-size: cover;
 	padding-top: 150px;
 	min-height: 500px;
@@ -427,7 +427,9 @@ h4 {
 }
 
 
-
+.full {
+	display: flex;
+}
 
 
 .acordeon input {
@@ -437,15 +439,16 @@ h4 {
 .acordeon__titulo {
 	display: block;
 	padding: 15px;
-	background-color: yellow;
-	color: black
-	font-size20px;
+	background-color: #242424;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
 	cursor: pointer;
 	border-bottom: 1px solid #fff;
 }
 
 .acordeon__titulo:hover {
-	background: rgba(220, 20, 60, 0.8);
+	background: rgba(36, 36, 36, 0.5);
 }
 
 .acordeon__contenido {
@@ -463,7 +466,31 @@ h4 {
 
 
 
-
+.grid-gallery {
+  display: grid;
+  grid-auto-rows: 200px;
+  grid-gap: .5rem;
+  grid-auto-flow: row dense;
+  overflow: hidden; }
+  
+  .grid-gallery .grid-gallery-item:nth-child(1) {
+    grid-column: span 1; }
+  .grid-gallery .grid-gallery-item:nth-child(4n) {
+    grid-column: span 2;
+    grid-row: span 1; }
+  .grid-gallery .grid-gallery-item:nth-child(6n) {
+    grid-column: span 3;
+    grid-row: span 1; }
+  .grid-gallery .grid-gallery-item:nth-child(7n) {
+    grid-column: span 2;
+    grid-row: span 2; }
+  .grid-gallery .grid-gallery-item:nth-child(40) {
+    grid-column: span 1;
+    grid-row: span 1; }
+  .grid-gallery .grid-gallery-item .grid-gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
 
 
 
