@@ -1,5 +1,6 @@
 body {
 	font-family: 'Roboto', Arial;
+
 }
 
 
@@ -31,7 +32,7 @@ h5 span {
 	position: absolute;
 	right: 0;
 	width: 0;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 1);
 	border-left: 3px solid black;
 
 	animation: maquina 15s infinite normal steps(102);
@@ -46,7 +47,9 @@ h5 span {
 	}
 }
 
-
+.machine {
+	background-color: white
+}
 
 section {
 	padding: 80px 0;	
@@ -60,12 +63,10 @@ footer {
 	background-color: #f5f5f5;
 }
 
-.bg-marron-palta {
-	background-color: rgba(39,39,39, .6);
-}
 
-.bg-amarillo-palta {
-	background-color: rgba(239, 236, 136, .5);
+.marmol {
+	background-image: url(fotos/fondo-md-op2.jpg);
+	display: flex;
 }
 
 
