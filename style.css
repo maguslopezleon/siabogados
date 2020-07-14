@@ -1,0 +1,462 @@
+body {
+	font-family: 'Roboto', Arial;
+}
+
+
+h1 {
+	font-size: 66px;
+	font-weight: 600px;
+	line-height: 80px;
+}
+
+
+h2 {
+	font-size: 48px;
+  }
+
+
+p {
+	font-size: 18px;
+	color: #999999;
+	line-height: 1.8;
+	margin-bottom: 0;
+}
+
+
+h5 {
+	position: relative;
+}
+
+h5 span {
+	position: absolute;
+	right: 0;
+	width: 0;
+	background-color: white;
+	border-left: 3px solid black;
+
+	animation: maquina 15s infinite normal steps(102);
+}
+
+@keyframes maquina{
+	from {
+		width: 100%
+	}
+	to {
+		width: 0;
+	}
+}
+
+
+
+section {
+	padding: 80px 0;	
+}
+
+footer {
+	padding: 10px;
+}
+
+.bg-light-grey {
+	background-color: #f5f5f5;
+}
+
+.bg-marron-palta {
+	background-color: rgba(39,39,39, .6);
+}
+
+.bg-amarillo-palta {
+	background-color: rgba(239, 236, 136, .5);
+}
+
+
+
+nav {
+	background-color: white !important;
+}
+
+
+
+.topmargin-xs {
+	margin-top: 15px !important;
+}
+
+
+.topmargin-sm {
+	margin-top: 30px !important;
+}
+
+
+.topmargin-lg {
+	margin-top: 60px !important;
+}
+
+.margin-botton-sm {
+	margin-bottom: 100px !important;
+}
+
+.btn {
+	font-size: 14px;
+	padding: 15px 26px;
+	min-width: 160px;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+
+.btn-light {
+	background-color: white;
+	color: black;
+	border: white 2px solid;
+}
+
+
+.text-dark {
+	color: gray
+	margin-top: 30px;
+}
+
+.contact-button {
+	margin: 15px 15px 15px 15px;
+	padding: 10px;
+	font-weight: bold;
+	color: #c07e43;
+}
+
+.contact-button:hover {
+	text-decoration-line: black;
+	color: black;
+}
+
+.navbar {
+	background-color: white,
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+	min-height: 100px;
+}
+
+.nav-link {
+	color: #002858;;
+}
+
+.nav-link:hover {
+	color: #8B8888;
+}
+
+.logo-brand {
+	min-width: 120px;
+	max-width: 150px;
+}
+
+.navbar-toggler {
+	font-size: 30px;
+}
+
+.navbar-toggler:focus {
+	outline: none;
+}
+
+.servicios {
+	color: gray;
+}
+
+.iconitos {
+	font-size: 50px;
+}
+
+.foto-herramienta {
+	margin: 150px;
+}
+
+.card {
+  margin: 1rem auto;
+  position: relative; 
+}
+
+.card-body {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+.contenedor-footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #242424;
+
+}
+
+
+.elemento {
+	text-align: center;
+	align-items: center;
+	width: 100%;
+	color: white;
+}
+
+.elemento ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+
+#hero-index {
+	background-image: url('fotos/manos-md-corte-1.jpg');
+	background-size: cover;
+	padding-top: 90px;
+	min-height: 500px;
+	color: white;
+}
+
+
+
+#hero-contacto {
+	background-image: url('fotos/contacto.jpg');
+	background-size: cover;
+	padding-top: 90px;
+	min-height: 500px;
+	color: white;
+}
+
+.content-center {
+	max-width: 800px;
+	margin: 30px auto 30px auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.index {
+	padding: 10px;
+}
+
+
+.servicios-container {
+	position: relative;
+	overflow: hidden;
+	margin: 10 px 0;
+
+}
+
+.servicios-containter img {
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+
+.servicios-details {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	z-index: 9000;
+}
+
+.servicios-details h4, .servicios-details p {
+	color: white;
+}
+
+.servicios-details p {
+	font-size: 14px;
+}
+
+.tools-container {
+	position: relative;
+	margin: 10px 0;
+
+}
+
+.tools-details {
+	position: absolute;
+	color: white;
+	bottom: 0px;
+	left: 20px;
+
+}
+
+
+.container {
+	padding: 15px;
+}
+
+.container p {
+	padding: 5px !important
+}
+
+.form-control {
+	font-size: 14px,
+	border: 1px solid #efec88;
+	padding: 15px;
+	border-radius: 2px;
+	height: auto;
+}
+
+.form-control:focus {
+	border: 1px solid #c4d154;
+	outline: none;
+	box-shadow: none;
+
+}
+
+
+.gira-gira {
+	display: flex;	
+	width: 400px;
+	height: 45px;
+	font-size: 45px;
+	line-height: 45px;
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	overflow: ;
+
+
+}
+
+.gira-ul {
+list-style: none;
+font-size: 45px;
+text-align: left;
+line-height: 45px;
+animation: gira 10s infinite;
+padding: 5px;
+
+}
+
+.gira-ul-li {
+	margin: 5px;
+	line-height: 45px;
+}
+
+@keyframes gira {
+
+	0% {
+		margin-top: 0,
+	}
+	20% {
+		margin-top: 0;
+	}
+	25% {
+		margin-top: -45px;
+	}
+	50% {
+		margin-top: -45px;
+	}
+	55% {
+		margin-top: -90px;
+	}
+
+	80% {
+		margin-top: -90px;
+	}
+	85% {
+		margin-top: -45px;
+	}
+	95% {
+		margin-top: -45px;
+	}
+	100% {
+		margin-top: -0px;
+	}
+
+
+
+
+}
+
+.gira-ul-li {
+	margin: 0px !important;
+}
+
+h4 {
+	margin: 0;
+	font-size: 40px;
+	line-height: 40px;
+}
+
+
+
+.p-servicios {
+	color: white !important;
+}
+
+
+#hero-quienes-somos {
+	background-image: url('fotos/quienes-somos.jpg');
+	background-size: cover;
+	padding-top: 150px;
+	min-height: 500px;
+	color: white;
+}
+
+#hero-quienes-somos p {
+	color: white;
+}
+
+#hero-que-hacemos {
+	background-image: url('fotos/emprendedores-3.jpg');
+	background-size: cover;
+	padding-top: 150px;
+	min-height: 500px;
+	color: white;
+}
+
+#hero-que-hacemos p {
+	color: white;
+
+}
+
+#hero-formas-de-pago {
+	background-image: url('fotos/herramientas.jpg');
+	background-size: cover;
+	padding-top: 150px;
+	min-height: 500px;
+	color: white;
+}
+
+#hero-formas-de-pago p {
+	color: white;
+}
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+	  h1 {
+	  		font-size: 40px;
+  			line-height: normal;} 
+
+  		h5 span {
+  			display: none;
+  		}
+  		
+  		}
+
+
+@media (max-width: 767.98px) {
+
+	h5 span {
+  			display: none;
+  		}
+
+  		 }
+
+
+@media (max-width: 991.98px) { 
+
+		h5 span {
+  			display: none;
+  		}
+
+  		 }
+
+@media (max-width: 1199.98px) { ... }

@@ -1,0 +1,313 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(239, 236, 136, .5);
+}
+
+
+h1 {
+	font-size: 66px;
+	font-weight: 600px;
+	line-height: 80px;
+}
+
+
+h2 {
+	font-size: 48px;
+  }
+
+
+p {
+	font-size: 18px;
+	color: #999999;
+	line-height: 1.8;
+	margin-bottom: 0;
+}
+
+
+section {
+	padding: 120px 0;	
+}
+
+
+.bg-light-grey {
+	background-color: #f5f5f5;
+}
+
+.bg-marron-palta {
+	background-color: rgba(192, 126, 67, .6);
+}
+
+.bg-amarillo-palta {
+	background-color: rgba(239, 236, 136, .5);
+}
+
+
+
+nav {
+	background-color: white !important;
+}
+
+
+footer{
+	background: #757575;
+	height: 50vh;
+	padding-top: 30px;
+}
+footer h1{
+	text-align: center;
+	font-weight: 100;
+}
+
+.topmargin-xs {
+	margin-top: 15px !important;
+}
+
+
+.topmargin-sm {
+	margin-top: 30px !important;
+}
+
+
+.topmargin-lg {
+	margin-top: 60px !important;
+}
+
+.margin-botton-sm {
+	margin-bottom: 100px !important;
+}
+
+.btn {
+	font-size: 14px;
+	padding: 15px 26px;
+	min-width: 160px;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+
+.btn-light {
+	background-color: white;
+	color: black;
+	border: white 2px solid;
+}
+
+
+.text-dark {
+	color: gray
+	margin-top: 30px;
+}
+
+.contact-button {
+	margin: 15px 15px 15px 15px;
+	padding: 10px;
+	font-weight: bold;
+	color: #c07e43;
+}
+
+.contact-button:hover {
+	text-decoration-line: black;
+	color: black;
+}
+
+.navbar {
+	background-color: white,
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+	min-height: 100px;
+}
+
+.nav-link {
+	color: black;
+}
+
+.nav-link:hover {
+	color: #c07e43;
+}
+
+.logo-brand {
+	min-width: 120px;
+	max-width: 150px;
+}
+
+.navbar-toggler {
+	font-size: 30px;
+}
+
+.navbar-toggler:focus {
+	outline: none;
+}
+
+.servicios {
+	color: gray;
+}
+
+.iconitos {
+	font-size: 50px;
+}
+
+.foto-herramienta {
+	margin: 150px;
+}
+
+.card {
+  margin: 1rem auto;
+  position: relative; 
+}
+
+.card-body {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#hero-index {
+	background-image: url('fotos/emprendedores-2.jpg');
+	background-size: cover;
+	padding-top: 90px;
+	min-height: 500px;
+	color: white;
+}
+
+#hero-index p {
+	color: white;
+}
+
+#hero-contacto {
+	background-image: url('fotos/contacto.jpg');
+	background-size: cover;
+	padding-top: 90px;
+	min-height: 500px;
+	color: white;
+}
+
+.content-center {
+	max-width: 800px;
+	margin: 0 auto 60px auto;
+	text-align: center;
+}
+
+.servicios-container {
+	position: relative;
+	overflow: hidden;
+	margin: 10 px 0;
+
+}
+
+.servicios-containter img {
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.servicios-container:hover img {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.servicios-details {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	z-index: 9000;
+}
+
+.servicios-details h4, .servicios-details p {
+	color: white;
+}
+
+.servicios-details p {
+	font-size: 14px;
+}
+
+.tools-container {
+	position: relative;
+	margin: 10px 0;
+
+}
+
+.tools-details {
+	position: absolute;
+	color: white;
+	bottom: 0px;
+	left: 20px;
+
+}
+
+
+.form-control {
+	font-size: 14px,
+	border: 1px solid #efec88;
+	padding: 15px;
+	border-radius: 2px;
+	height: auto;
+}
+
+.form-control:focus {
+	border: 1px solid #c4d154;
+	outline: none;
+	box-shadow: none;
+
+}
+
+.p-servicios {
+	color: white !important;
+}
+
+
+#hero-que-es-pp {
+	background-image: url('fotos/emprendedores-1.jpg');
+	background-size: cover;
+	padding-top: 150px;
+	min-height: 500px;
+	color: white;
+}
+
+#hero-que-es-pp p {
+	color: white;
+}
+
+#hero-servicios {
+	background-image: url('fotos/emprendedores-3.jpg');
+	background-size: cover;
+	padding-top: 150px;
+	min-height: 500px;
+	color: white;
+}
+
+#hero-servicios p {
+	color: white;
+}
+
+#hero-herramientas {
+	background-image: url('fotos/herramientas.jpg');
+	background-size: cover;
+	padding-top: 150px;
+	min-height: 500px;
+	color: white;
+}
+
+#hero-herramientas p {
+	color: white;
+}
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+	  h1 {
+	  		font-size: 40px;
+  			line-height: normal;} 
+  		}
+
+
+@media (max-width: 767.98px) { ... }
+
+
+@media (max-width: 991.98px) { ... }
+
+@media (max-width: 1199.98px) { ... }
