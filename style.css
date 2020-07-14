@@ -217,7 +217,7 @@ nav {
 
 
 #hero-contacto {
-	background-image: url('fotos/contacto.jpg');
+	background-image: url('fotos/contact.jpg');
 	background-size: cover;
 	padding-top: 90px;
 	min-height: 500px;
@@ -392,7 +392,7 @@ h4 {
 
 
 #hero-quienes-somos {
-	background-image: url('fotos/firma-md.jpg');
+	background-image: url('fotos/who.jpg');
 	background-size: cover;
 	padding-top: 150px;
 	min-height: 500px;
@@ -404,7 +404,7 @@ h4 {
 }
 
 #hero-que-hacemos {
-	background-image: url('fotos/que-hacemos.jpg');
+	background-image: url('fotos/firma-portada.jpg');
 	background-size: cover;
 	padding-top: 150px;
 	min-height: 500px;
@@ -417,7 +417,7 @@ h4 {
 }
 
 #hero-formas-de-pago {
-	background-image: url('fotos/herramientas.jpg');
+	background-image: url('fotos/plata-portada.jpg');
 	background-size: cover;
 	padding-top: 150px;
 	min-height: 500px;
